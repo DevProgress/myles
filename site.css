@@ -1,0 +1,159 @@
+@font-face {
+  font-family: CormorantGaramond;
+  font-style: normal;
+  font-weight: 100;
+  src: url(./fonts/CormorantGaramond-Medium.ttf)
+}
+
+@font-face {
+  font-family: CormorantGaramond;
+  font-style: normal;
+  font-weight: 200;
+  src: url(./fonts/CormorantGaramond-Regular.ttf)
+}
+
+@font-face {
+  font-family: CormorantGaramond;
+  font-style: normal;
+  font-weight: 300;
+  src: url(./fonts/CormorantGaramond-SemiBold.ttf)
+}
+
+@font-face {
+font-family: SharpUnity;
+font-style: normal;
+font-weight: 100;
+src: url(./fonts/SharpUnity-Book.ttf) format("truetype"),url(./fonts/SharpUnity-Book.woff) format("woff"),url(./fonts/SharpUnity-Book.woff2) format("woff2");
+}
+
+@font-face {
+font-family: SharpUnity;
+font-style: italic;
+font-weight: 100;
+src: url(./fonts/SharpUnity-BookItalic.ttf) format("truetype"),url(./fonts/SharpUnity-BookItalic.woff) format("woff"),url(./fonts/SharpUnity-BookItalic.woff2) format("woff2");
+}
+
+@font-face {
+font-family: SharpUnity;
+font-style: normal;
+font-weight: 400;
+src: url(./fonts/SharpUnity-Semibold.ttf) format("truetype"),url(./fonts/SharpUnity-Semibold.woff) format("woff"),url(./fonts/SharpUnity-Semibold.woff2) format("woff2");
+}
+
+@font-face {
+font-family: SharpUnity;
+font-style: italic;
+font-weight: 400;
+src: url(./fonts/SharpUnity-SemiboldItalic.ttf) format("truetype"),url(./fonts/SharpUnity-SemiboldItalic.woff) format("woff"),url(./fonts/SharpUnity-SemiboldItalic.woff2) format("woff2");
+}
+
+@font-face {
+font-family: SharpUnity;
+font-style: normal;
+font-weight: 800;
+src: url(./fonts/SharpUnity-Extrabold.ttf) format("truetype"),url(./fonts/SharpUnity-Extrabold.woff) format("woff"),url(./fonts/SharpUnity-Extrabold.woff2) format("woff2");
+}
+
+@font-face {
+font-family: SharpUnity;
+font-style: italic;
+font-weight: 800;
+src: url(./fonts/SharpUnity-ExtraboldItalic.ttf) format("truetype"),url(./fonts/SharpUnity-ExtraboldItalic.woff) format("woff"),url(./fonts/SharpUnity-ExtraboldItalic.woff2) format("woff2");
+}
+
+html, body {
+  background-color: rgb(229, 219, 203);
+  font-family: "SharpUnity";
+  font-weight: 100;
+  overflow-x: hidden;
+}
+
+.row-top {
+  background-color: rgb(248, 245, 240);
+}
+
+.bottom-gray-bar {
+  font-weight: 400;
+}
+
+.bottom-title {
+  font-weight: 800;
+}
+
+.padded-left {
+  padding-left: 15%;
+  padding-right: 5%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.padded-right {
+  padding-right: 20%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.bottom-gray-bar .attribution-title {
+  font-size: 12px;
+}
+
+.bottom-gray-bar .attribution a {
+  font-size: 12px;
+  color: black;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .padded-left {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .padded-right {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.poem-title {
+  font-family: "CormorantGaramond";
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.poem-tag {
+  font-family: "CormorantGaramond";
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.poem {
+  font-family: "CormorantGaramond";
+  padding-top: 40px;
+  font-size: 20px;
+  padding: 40px;
+  font-weight: bold;
+}
+
+audio {
+  padding-top: 40px;
+  width: 100%;
+}
+
+.btn-join, .btn-join:hover, .btn-join:active, .btn-join:focus
+{
+  background-color: rgb(157, 36, 143);
+  border-color: rgb(157, 36, 143);
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.bottom-paragraph {
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .btn-join {
+    width: 100%;
+  }
+}
